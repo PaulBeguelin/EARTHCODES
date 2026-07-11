@@ -97,4 +97,5 @@ where:
 - reservoir: the numbered label of the reservoir that you want to query (e.g. 'Reservoir_0', 'Reservoir_1', etc.)
 - event: the index letter of the model event that you want to query (e.g. 'a', 'b', 'c', etc.)
 - idx (optional): the list of indices corresponding to the simulations that you want to extract. The indices list corresponding to each sample are listed in the dataframe m.data.results (column 'idx').
-This will output a python dictionary with the model event's inputs, outputs and variables as keys. Inputs and outputs are nested dictionaries with the elements names, isotope ratio names and physical parameters names as keys.
+This will output a python dictionary with the model event's inputs, outputs and variables as keys.
+Inputs and outputs are nested dictionaries with the elements names, isotope ratio names and physical parameters names as keys.
