@@ -4,6 +4,10 @@ EARTHCODES Python package for processes-based geochemical modelling
 WARNING:
 This version is under active development and lacks full functionality, test cases, documentation and a full user guide.
 
+HOW TO CITE:
+For now, please cite
+Béguelin, P., Panton, J., Andersen, M., Elliott, T., Davies, H., Rodney, J., & Plimmer, A. (2025). Comparing geochemical and geodynamical models of plume and ridge mantle source composition. Geochemistry, Geophysics, Geosystems, 26, e2025GC012357. https://doi.org/10.1029/2025GC012357
+
 EARTHCODES uses Array-based calculations (Numpy) to quickly calculate model geochemical compositions from mantle processes and compare these model results to real data, translating geochemical observations into physical mantle parameters.
 EARTHCODES is a geochemical inversion software that keeps tracks of reservoir composition, but does not attribute size and location to reservoirs, instead modelling a fully independent mantle in each simulation. It is therefore not a box model.
 
